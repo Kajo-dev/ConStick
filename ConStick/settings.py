@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     #moje
     'dayplan',
+    'schoolplan',
 ]
 
 MIDDLEWARE = [
