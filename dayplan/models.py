@@ -33,3 +33,5 @@ class plans(models.Model):
         max_length=3,
         choices=zrobione,
     )
+
+    
