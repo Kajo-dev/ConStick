@@ -1,6 +1,6 @@
 from django.db import models
 
-class plans(models.Model):
+class Plans(models.Model):
 
     zadanie=models.CharField(
         default="",

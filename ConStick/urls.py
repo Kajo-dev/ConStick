@@ -22,5 +22,6 @@ from dayplan import views
 urlpatterns = [
     path('',views.home_view,name='home'), 
     path('admin/', admin.site.urls),
+    path('plany/', views.home_view_dodawanie,name='dodawanie'),
     
 ]
